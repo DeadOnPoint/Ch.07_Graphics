@@ -15,6 +15,19 @@ IN THE WINDOW TITLE PLEASE PUT YOUR NAME.
 When you are finished Pull Request your file to your instructor.
 '''
 
+import arcade
+
+SW = 260
+SH = SW * 1
+
+arcade.open_window(SW,SH,"Will Jacobson's Pycasso",True,True)
+arcade.set_background_color(arcade.color.WHITE)
+arcade.start_render()
 
 
 
+
+
+
+arcade.finish_render()
+arcade.run()
